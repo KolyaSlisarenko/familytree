@@ -321,5 +321,15 @@
     "date_of_birth": "13.02.1973",
     "mid": 18,
     "photos": ["main.jpeg"]
+  },
+  {
+    "id": 39,
+    "name": "Віра",
+    "surname": "Слісаренко",
+    "date_of_birth": "--.--.--",
+    "date_of_death":  "--.--.--",
+    "mid": 19,
+    "fid": 20,
+    "photos": ["main.jpeg"]
   }
 ]
