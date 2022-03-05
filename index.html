@@ -42,9 +42,11 @@
               readOnly: true,
               titleBinding: 'name',
               photoBinding: 'photo',
+              generateElementsFromFields: false,
               elements: [
-                { type: 'textbox', label: 'Full Name', binding: 'name' },
-                { type: 'textbox', label: 'Date Of Birth', binding: 'date_of_birth' },
+                { type: 'textbox', label: 'Ім\'я та прізвище', binding: 'name' },
+                { type: 'textbox', label: 'Дата народження', binding: 'date_of_birth' },
+                { type: 'textbox', label: 'Вік', binding: 'age' },
               ]
             },
             nodes: this.mapNodes(data)

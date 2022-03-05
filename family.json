@@ -63,14 +63,16 @@
     "surname": "Слісаренко",
     "date_of_birth": "29.01.1928",
     "date_of_death":  "16.05.2010",
-    "pids": [6]
+    "pids": [6],
+    "mid": 32,
+    "fid": 33
   },
   {
     "id": 8,
     "name": "Тамара",
     "surname": "Сушко",
     "date_of_birth": "12.05.1939",
-    "date_of_death":  "--.--.--",
+    "date_of_death":  "22.12.1993",
     "pids": [9],
     "mid": 11,
     "fid": 12
@@ -80,7 +82,7 @@
     "name": "Віталій",
     "surname": "Сушко",
     "date_of_birth": "07.11.1940",
-    "date_of_death":  "--.--.--",
+    "date_of_death":  "24.05.1983",
     "pids": [8],
     "mid": 13,
     "fid": 14
@@ -128,7 +130,7 @@
     "id": 15,
     "name": "Юрій",
     "surname": "Сушко",
-    "date_of_birth": "25.04.1964",
+    "date_of_birth": "25.04.1963",
     "mid": 8,
     "fid": 9,
     "photos": ["main.jpg"]
@@ -175,5 +177,149 @@
     "date_of_birth": "--.--.--",
     "date_of_death":  "--.--.--",
     "pids": [19]
+  },
+  {
+    "id": 21,
+    "name": "Валентин",
+    "surname": "Гузченко",
+    "date_of_birth": "--.--.1937",
+    "date_of_death":  "--.--.--",
+    "mid": 11,
+    "fid": 12
+  },
+  {
+    "id": 22,
+    "name": "Таїсія",
+    "surname": "Гузченко",
+    "date_of_birth": "--.--.1962",
+    "date_of_death":  "--.--.--",
+    "fid": 21
+  },
+  {
+    "id": 23,
+    "name": "Юрій",
+    "surname": "Гузченко",
+    "date_of_birth": "--.--.1935",
+    "date_of_death":  "--.--.--",
+    "mid": 11,
+    "fid": 12
+  },
+  {
+    "id": 24,
+    "name": "Тетяна",
+    "surname": "Гузченко",
+    "date_of_birth": "--.--.1959",
+    "date_of_death":  "--.--.--",
+    "fid": 23
+  },
+  {
+    "id": 25,
+    "name": "Олена",
+    "surname": "Гузченко",
+    "date_of_birth": "--.--.1965",
+    "date_of_death":  "--.--.--",
+    "fid": 23
+  },
+  {
+    "id": 26,
+    "name": "Микола",
+    "surname": "Гузченко",
+    "date_of_birth": "24.10.1984",
+    "fid": 23
+  },
+  {
+    "id": 27,
+    "name": "Ярослав",
+    "surname": "Гузченко",
+    "date_of_birth": "08.08.1988",
+    "fid": 23
+  },
+  {
+    "id": 28,
+    "name": "Лада",
+    "surname": "Гузченко",
+    "date_of_birth": "29.03.1993",
+    "fid": 23
+  },
+  {
+    "id": 29,
+    "name": "Злата",
+    "surname": "Гузченко",
+    "date_of_birth": "--.--.--",
+    "fid": 26
+  },
+  {
+    "id": 30,
+    "name": "Єва",
+    "surname": "Гузченко",
+    "date_of_birth": "24.03.2021",
+    "fid": 27
+  },
+  {
+    "id": 31,
+    "name": "Олег",
+    "surname": "Гузченко",
+    "date_of_birth": "24.03.2021",
+    "fid": 24
+  },
+  {
+    "id": 32,
+    "name": "Андрій",
+    "surname": "Кітляр",
+    "date_of_birth": "--.--.--",
+    "pids": [33]
+  },
+  {
+    "id": 33,
+    "name": "Одарка",
+    "surname": "Кітляр",
+    "date_of_birth": "--.--.--",
+    "pids": [32]
+  },
+  {
+    "id": 34,
+    "name": "Марія",
+    "surname": "Кітляр",
+    "date_of_birth": "--.--.--",
+    "date_of_death":  "--.--.--",
+    "mid": 32,
+    "fid": 33
+  },
+  {
+    "id": 35,
+    "name": "Георгій",
+    "surname": "Кітляр",
+    "date_of_birth": "--.--.--",
+    "date_of_death":  "--.--.--",
+    "mid": 32,
+    "fid": 33
+  },
+  {
+    "id": 36,
+    "name": "Єфросинія",
+    "surname": "Слісаренко",
+    "date_of_birth": "--.--.--",
+    "date_of_death":  "--.--.--",
+    "mid": 19,
+    "fid": 20,
+    "photos": ["main.jpeg"]
+  },
+  {
+    "id": 37,
+    "name": "Михайло",
+    "surname": "Слісаренко",
+    "date_of_birth": "--.--.--",
+    "date_of_death":  "--.--.--",
+    "mid": 19,
+    "fid": 20,
+    "photos": ["main.jpeg"]
+  },
+  {
+    "id": 38,
+    "name": "Лілія",
+    "surname": "Трішина",
+    "date_of_birth": "13.02.1973",
+    "mid": 18,
+    "photos": ["main.jpeg"]
   }
 ]
