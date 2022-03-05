@@ -17,7 +17,6 @@
 </div>
 
 <script>
-
   Vue.createApp({
     data () {
       return {
@@ -58,7 +57,6 @@
     methods: {
       mapNodes (data) {
         return data.map(person => {
-          console.log(this.getPhoto(person));
           return {
             ...person,
             name: person.name + ' ' + person.surname,
@@ -73,15 +71,16 @@
       },
 
       getAge (person) {
-        try {
-          let dateOfDeath = new Date(person.date_of_death);
-        } catch (e) {
-          let dateOfDeath = false;
-        }
-
-        var d2 = d2 || new Date();
-        var diff = d2.getTime() - new Date(person.date_of_birth).getTime();
-        return Math.floor(diff / (1000 * 60 * 60 * 24 * 365.25));
+        return 1;
+        // try {
+        //   let dateOfDeath = new Date(person.date_of_death);
+        // } catch (e) {
+        //   let dateOfDeath = false;
+        // }
+        //
+        // var d2 = d2 || new Date();
+        // var diff = d2.getTime() - new Date(person.date_of_birth).getTime();
+        // return Math.floor(diff / (1000 * 60 * 60 * 24 * 365.25));
       }
     }
   }).mount('#app');

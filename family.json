@@ -44,23 +44,26 @@
     "pids": [4],
     "mid": 6,
     "fid": 7,
-    "photos": ["main.jpeg"]
+    "photos": ["main.png"]
   },
   {
     "id": 6,
     "name": "Лука",
     "surname": "Слісаренко",
-    "date_of_birth": "--.--.--",
-    "date_of_death":  "--.--.--",
-    "pids": [7]
+    "date_of_birth": "20.10.1930",
+    "date_of_death":  "21.11.2011",
+    "pids": [7],
+    "mid": 19,
+    "fid": 20,
+    "photos": ["main.jpeg"]
   },
   {
     "id": 7,
     "name": "Надія",
     "surname": "Слісаренко",
-    "date_of_birth": "--.--.--",
-    "date_of_death":  "--.--.--",
-    "pids": [7]
+    "date_of_birth": "29.01.1928",
+    "date_of_death":  "16.05.2010",
+    "pids": [6]
   },
   {
     "id": 8,
@@ -131,12 +134,46 @@
     "photos": ["main.jpg"]
   },
   {
-    "id": 17,
+    "id": 16,
     "name": "Тетяна",
     "surname": "Сушко",
     "date_of_birth": "24.11.1985",
     "fid": 15,
-    "mid": 16,
     "photos": ["main.jpg"]
+  },
+  {
+    "id": 17,
+    "name": "Світлана",
+    "surname": "Слісаренко",
+    "date_of_birth": "16.09.1955",
+    "mid": 6,
+    "fid": 7,
+    "photos": ["main.jpeg"]
+  },
+  {
+    "id": 18,
+    "name": "Ганна",
+    "surname": "Трішина",
+    "date_of_birth": "01.04.1950",
+    "date_of_death":  "25.09.2009",
+    "mid": 6,
+    "fid": 7,
+    "photos": ["main.jpeg"]
+  },
+  {
+    "id": 19,
+    "name": "Фрол",
+    "surname": "Слісаренко",
+    "date_of_birth": "--.--.--",
+    "date_of_death":  "--.--.--",
+    "pids": [20]
+  },
+  {
+    "id": 20,
+    "name": "Клава",
+    "surname": "Слісаренко",
+    "date_of_birth": "--.--.--",
+    "date_of_death":  "--.--.--",
+    "pids": [19]
   }
 ]
