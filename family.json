@@ -4,29 +4,139 @@
     "name": "Микола",
     "surname": "Слісаренко",
     "date_of_birth": "02.10.1997",
-    "mid": 3,
-    "fid": 4
+    "mid": 4,
+    "fid": 5,
+    "photos": ["main.jpg"]
   },
   {
     "id": 2,
     "name": "Роман",
     "surname": "Слісаренко",
     "date_of_birth": "02.10.1997",
-    "mid": 3,
-    "fid": 4
+    "mid": 4,
+    "fid": 5,
+    "photos": ["main.jpeg"]
   },
   {
     "id": 3,
-    "name": "Наталія",
+    "name": "Ярослав",
     "surname": "Слісаренко",
-    "date_of_birth": "18.08.1970",
-    "pids": [4]
+    "date_of_birth": "06.01.1992",
+    "mid": 4,
+    "fid": 5,
+    "photos": ["main.jpg"]
   },
   {
     "id": 4,
+    "name": "Наталія",
+    "surname": "Сушко",
+    "date_of_birth": "18.08.1970",
+    "pids": [5],
+    "mid": 8,
+    "fid": 9,
+    "photos": ["main.jpg"]
+  },
+  {
+    "id": 5,
     "name": "Валерій",
     "surname": "Слісаренко",
     "date_of_birth": "25.15.1964",
-    "pids": [3]
+    "pids": [4],
+    "mid": 6,
+    "fid": 7,
+    "photos": ["main.jpeg"]
+  },
+  {
+    "id": 6,
+    "name": "Лука",
+    "surname": "Слісаренко",
+    "date_of_birth": "--.--.--",
+    "date_of_death":  "--.--.--",
+    "pids": [7]
+  },
+  {
+    "id": 7,
+    "name": "Надія",
+    "surname": "Слісаренко",
+    "date_of_birth": "--.--.--",
+    "date_of_death":  "--.--.--",
+    "pids": [7]
+  },
+  {
+    "id": 8,
+    "name": "Тамара",
+    "surname": "Сушко",
+    "date_of_birth": "12.05.1939",
+    "date_of_death":  "--.--.--",
+    "pids": [9],
+    "mid": 11,
+    "fid": 12
+  },
+  {
+    "id": 9,
+    "name": "Віталій",
+    "surname": "Сушко",
+    "date_of_birth": "07.11.1940",
+    "date_of_death":  "--.--.--",
+    "pids": [8],
+    "mid": 13,
+    "fid": 14
+  },
+  {
+    "id": 10,
+    "name": "Дарина",
+    "surname": "Слісаренко",
+    "date_of_birth": "21.06.2011",
+    "fid": 3
+  },
+  {
+    "id": 11,
+    "name": "Марфа",
+    "surname": "Гузченко",
+    "date_of_birth": "31.07.1909",
+    "date_of_death":  "--.--.--",
+    "pids": [12]
+  },
+  {
+    "id": 12,
+    "name": "Михайло",
+    "surname": "Гузченко",
+    "date_of_birth": "--.--.--",
+    "date_of_death":  "--.--.--",
+    "pids": [11]
+  },
+  {
+    "id": 13,
+    "name": "Дем'ян",
+    "surname": "Сушко",
+    "date_of_birth": "--.--.----",
+    "date_of_death":  "--.--.--",
+    "pids": [14]
+  },
+  {
+    "id": 14,
+    "name": "Поліна",
+    "surname": "Сушко",
+    "date_of_birth": "--.--.--",
+    "date_of_death":  "--.--.--",
+    "pids": [13]
+  },
+  {
+    "id": 15,
+    "name": "Юрій",
+    "surname": "Сушко",
+    "date_of_birth": "25.04.1964",
+    "mid": 8,
+    "fid": 9,
+    "photos": ["main.jpg"]
+  },
+  {
+    "id": 17,
+    "name": "Тетяна",
+    "surname": "Сушко",
+    "date_of_birth": "24.11.1985",
+    "fid": 15,
+    "mid": 16,
+    "photos": ["main.jpg"]
   }
 ]

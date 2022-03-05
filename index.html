@@ -13,7 +13,7 @@
 </head>
 <body>
 <div id="app">
-  <div style="width:100%; height:700px;" id="tree"/>
+  <div style="width:100%; height: 100vh" id="tree"/>
 </div>
 
 <script>
@@ -33,8 +33,22 @@
       })
         .then((data) => {
           this.tree = new FamilyTree(document.getElementById('tree'), {
+            mouseScrool: FamilyTree.none,
+            siblingSeparation: 120,
+            template: 'john',
             nodeBinding: {
-              field_0: 'name'
+              field_0: 'name',
+              field_1: 'age',
+              img_0: 'photo'
+            },
+            editForm: {
+              readOnly: true,
+              titleBinding: "name",
+              photoBinding: "photo",
+              elements: [
+                { type: 'textbox', label: 'Full Name', binding: 'name' },
+                { type: 'textbox', label: 'Date Of Birth', binding: 'date_of_birth' },
+              ]
             },
             nodes: this.mapNodes(data)
           });
@@ -44,11 +58,30 @@
     methods: {
       mapNodes (data) {
         return data.map(person => {
+          console.log(this.getPhoto(person));
           return {
             ...person,
             name: person.name + ' ' + person.surname,
+            photo: this.getPhoto(person),
+            age: this.getAge(person)
           };
         });
+      },
+
+      getPhoto (person) {
+        return person.photos ? ['photos', person.id, person.photos[0]].join('/') : '';
+      },
+
+      getAge (person) {
+        try {
+          let dateOfDeath = new Date(person.date_of_death);
+        } catch (e) {
+          let dateOfDeath = false;
+        }
+
+        var d2 = d2 || new Date();
+        var diff = d2.getTime() - new Date(person.date_of_birth).getTime();
+        return Math.floor(diff / (1000 * 60 * 60 * 24 * 365.25));
       }
     }
   }).mount('#app');
