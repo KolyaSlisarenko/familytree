@@ -364,7 +364,7 @@
     "id": 29,
     "name": "Злата",
     "surname": "Гузченко",
-    "date_of_birth": "--.--.--",
+    "date_of_birth": "29.11.2011",
     "fid": 26,
     "photos": ["133280425_4030189327009324_2737320579115252728_n.jpg"]
   },
@@ -442,8 +442,14 @@
     "date_of_death":  "--.--.--",
     "mid": 19,
     "fid": 20,
-    "photos": ["main.jpeg"],
-    "pids": [71]
+    "pids": [71],
+    "city": "Украинская ССР, Полтавская обл., Кобелякский р-н, с. Красна",
+    "photos": ["", "img.png"],
+    "contacts": {
+      "pamyat_naroda": [
+        "https://pamyat-naroda.ru/heroes/podvig-chelovek_yubileinaya_kartoteka1519903203/"
+      ]
+    }
   },
   {
     "id": 38,
@@ -475,9 +481,7 @@
     "id": 41,
     "name": "Михайло",
     "surname": "Слісаренко",
-    "date_of_birth": "--.--.--",
-    "date_of_death":  "--.--.--",
-    "photos": ["", "img.png"]
+    "date_of_birth": "--.--.--"
   },
   {
     "id": 42,
@@ -511,7 +515,7 @@
     "id": 45,
     "name": "Марк",
     "surname": "-------",
-    "date_of_birth": "--.--.--",
+    "date_of_birth": "27.12.2011",
     "mid": 16,
     "photos": ["87778d7f-dc91-4f25-9f68-27fbc251af81.jpeg"]
   },
