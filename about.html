@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Orbit - Bootstrap 5 Resume/CV Template for Developers</title>
+    <!-- Meta -->
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta
+            name="description"
+            content="Responsive HTML5 Resume/CV Template for Developers"
+    />
+    <meta name="author" content="Xiaoying Riley at 3rd Wave Media"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <!-- Google Font -->
+    <link
+            href="https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic"
+            rel="stylesheet"
+            type="text/css"
+    />
+    <!-- FontAwesome JS-->
+    <script defer src="assets/fontawesome/js/all.min.js"></script>
+    <!-- Global CSS -->
+    <link
+            rel="stylesheet"
+            href="assets/plugins/bootstrap/css/bootstrap.min.css"
+    />
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="assets/css/orbit-1.css"/>
+    <script src="https://unpkg.com/vue@3"></script>
+</head>
+
+<body>
+<div id="app">
+    <!--https://themes.3rdwavemedia.com/bootstrap-templates/resume/orbit-free-resume-cv-bootstrap-theme-for-developers/-->
+    <div
+            class="wrapper mt-lg-5"
+            style="display: flex; flex-direction: row-reverse"
+    >
+        <div
+                class="sidebar-wrapper"
+                style="flex: 1; position: inherit; width: fit-content"
+        >
+            <div class="profile-container">
+                <img class="profile" :src="getPhoto(user)" style="width: 300px"/>
+                <h1 class="name">{{ user.name }} {{ user.surname }}</h1>
+                <h3 v-if="user.date_of_death" class="tagline">
+                    {{ user.date_of_birth }} - {{ user.date_of_death }}
+                </h3>
+                <h3 v-else class="tagline">{{ user.date_of_birth }}</h3>
+            </div>
+            <div class="contact-container container-block">
+                <ul class="list-unstyled contact-list">
+                    <li v-if="getContact(user).mail" class="email">
+                        <i class="fas fa-envelope"></i
+                        ><a :href="'mailto: ' + getContact(user).mail"
+                    >{{ getContact(user).mail }}</a
+                    >
+                    </li>
+                    <li v-if="getContact(user).phone" class="phone">
+                        <i class="fas fa-phone"></i
+                        ><a :href="'tel: ' + getContact(user).phone"
+                    >{{ getContact(user).phone }}</a
+                    >
+                    </li>
+                    <li v-if="getContact(user).facebook" class="fa-facebook">
+                        <i class="fab fa-facebook"></i
+                        ><a :href="getContact(user).facebook" target="_blank"
+                    >@facebook</a
+                    >
+                    </li>
+                    <li v-if="getContact(user).linkedin" class="linkedin">
+                        <i class="fab fa-linkedin-in"></i
+                        ><a :href="getContact(user).linkedin" target="_blank"
+                    >@linkedin</a
+                    >
+                    </li>
+                    <li v-if="getContact(user).github" class="github">
+                        <i class="fab fa-github"></i
+                        ><a :href="getContact(user).github" target="_blank"
+                    >@github.com</a
+                    >
+                    </li>
+                    <li v-if="getContact(user).twitter" class="twitter">
+                        <i class="fab fa-twitter"></i
+                        ><a :href="getContact(user).twitter" target="_blank"
+                    >@twitter</a
+                    >
+                    </li>
+                </ul>
+            </div>
+            <!--//contact-container-->
+            <div
+                    v-if="user.education"
+                    class="education-container container-block"
+            >
+                <h2 class="container-block-title">Освіта</h2>
+                <div class="item" v-for="education in user.education">
+                    <h4 class="degree">{{ education.degree }}</h4>
+                    <h5 class="meta">{{ education.education_institution_name }}</h5>
+                    <div class="time">
+                        {{ education.date_of_start }} - {{ education.date_of_end }}
+                    </div>
+                </div>
+                <!--//item-->
+            </div>
+            <!--//education-container-->
+        </div>
+        <div class="main-wrapper" style="padding: 60px; min-width: 400px">
+            <section class="section summary-section">
+                <h2 class="section-title">
+                    <span class="icon-holder"><i class="fas fa-user"></i></span>
+                    ПРО МЕНЕ
+                </h2>
+                <div class="summary">
+                    <p>{{ user.about}}</p>
+                </div>
+            </section>
+            <section class="section experiences-section">
+                <h2 class="section-title">
+              <span class="icon-holder"><i class="fas fa-briefcase"></i></span
+              >МІСЦЯ ПРАЦІ
+                </h2>
+                <div class="item" v-for="work in user.work">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">{{ work.position }}</h3>
+                            <div v-if="work.date_of_end" class="time">
+                                {{ work.date_of_start }} - {{ work.date_of_end }}
+                            </div>
+                            <div v-else class="time">
+                                {{ work.date_of_start }} - Present
+                            </div>
+                        </div>
+                        <!--//upper-row-->
+                        <div v-if="work.city" class="company">{{ work.company }}, {{ work.city }}</div>
+                        <div v-else class="company">{{ work.company }}</div>
+                    </div>
+                    <!--//meta-->
+                    <div class="details">
+                        <p>
+                            {{ work.description}}
+                        </p>
+                    </div>
+                    <!--//details-->
+                </div>
+                <!--//item-->
+            </section>
+            <!--//section-->
+        </div>
+        <!--//main-body-->
+    </div>
+
+    <footer class="footer">
+        <div class="text-center">
+            <!--/* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */-->
+            <small class="copyright"
+            >Designed with <i class="fas fa-heart"></i
+            ></small>
+        </div>
+        <!--//container-->
+    </footer>
+    <!--//footer-->
+</div>
+<script>
+    Vue.createApp({
+        data() {
+            return {
+                user: {},
+            };
+        },
+
+        mounted() {
+            const id = new URL(window.location).searchParams.get("id");
+
+            fetch("family.json")
+                .then((response) => {
+                    return response.json();
+                })
+                .then((data) => {
+                    this.user = data.find((item) => {
+                        return item.id == id;
+                    });
+                });
+        },
+
+        methods: {
+            getPhoto(person) {
+                return person.photos
+                    ? ["photos", person.id, person.photos[0]].join("/")
+                    : "";
+            },
+
+            getContact(person) {
+                return person.contacts ? person.contacts : {};
+            },
+        },
+    }).mount("#app");
+</script>
+</body>
+</html>
