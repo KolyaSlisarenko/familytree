@@ -272,6 +272,13 @@
     "date_of_death":  "18.01.1944",
     "fid": 41,
     "pids": [20],
+    "city": "Украинская ССР, Полтавская обл., Кобелякский р-н, с. Красна",
+    "contacts": {
+      "pamyat_naroda": [
+        "https://pamyat-naroda.ru/heroes/person-hero104936677/",
+        "https://pamyat-naroda.ru/heroes/memorial-chelovek_vpp1997123684/"
+      ]
+    },
     "photos": ["", "00000031.jpeg", "00000151.jpg", "00000236.jpg", "00000653.jpg", "00002419.jpg"]
   },
   {
@@ -407,6 +414,12 @@
     "date_of_death":  "--.--.--",
     "mid": 32,
     "fid": 33,
+    "city": "Украинская ССР, Полтавская обл., Кобелякский р-н",
+    "contacts": {
+      "pamyat_naroda": [
+        "https://pamyat-naroda.ru/heroes/memorial-chelovek_donesenie51281516/"
+      ]
+    },
     "photos": ["", "00000143.jpg"]
   },
   {
@@ -474,7 +487,7 @@
     "surname": "Котляр",
     "date_of_birth": "--.--.1910",
     "date_of_death":  "26.03.1942",
-    "city": "м. Кобеляки",
+    "city": " Украинская ССР, Полтавская обл.",
     "fid": 44,
     "contacts": {
       "pamyat_naroda": [
