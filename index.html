@@ -2,15 +2,44 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <script src="https://unpkg.com/vue@3"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
   <script src="familytree.js"></script>
   <title>Family tree</title>
 </head>
 <body>
 <div id="app">
+  <div id="editForm" style="display:none; position:absolute; width:30%;z-index:10000;right: 0px;">
+    <div class="tile is-ancestor" style="height: 100vh">
+      <div class="tile is-parent">
+        <article class="tile is-child notification" style="background: #35869a; color: white">
+          <span class="icon-text" style="position: absolute; top: 10px; right: 10px; font-size: 32px;">
+            <span class="icon" id="cancel">☒</span>
+          </span>
+          <div class="content" v-if="person">
+            <div class="content">
+              <figure class="image">
+                <img :src="getPhoto(person)">
+              </figure>
+              <p class="title has-text-centered">{{ person.name }}</p>
+              <p class="has-text-centered">
+                <span>{{ person.date_of_birth }}</span>
+                <span v-if="person.date_of_death"> - {{ person.date_of_death}} </span>
+              </p>
+              <hr>
+              <table>
+                <tr v-if="person.age">
+                  <td>Вік</td>
+                  <td>{{ person.age }}</td>
+                </tr>
+              </table>
+              <a class="button has-text-centered" :href="getAboutUrl(person)" style="width: 100%;">Біографія</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
   <div style="width:100%; height: 100vh" id="tree"/>
 </div>
 
@@ -18,8 +47,7 @@
   Vue.createApp({
     data () {
       return {
-        message: 'Hello Vue!',
-        users: [],
+        person: null,
         tree: null
       };
     },
@@ -30,6 +58,7 @@
       })
         .then((data) => {
           this.tree = new FamilyTree(document.getElementById('tree'), {
+            editUI: this.getEditForm(),
             mouseScrool: FamilyTree.none,
             siblingSeparation: 120,
             template: 'john',
@@ -67,7 +96,8 @@
             ...person,
             name: person.name + ' ' + person.surname,
             photo: this.getPhoto(person),
-            age: this.getAge(person.date_of_birth, person.date_of_death)
+            age: this.getAge(person.date_of_birth, person.date_of_death),
+            about: this.getAboutUrl(person)
           };
         });
       },
@@ -106,6 +136,42 @@
        */
       parseDate (date) {
         return new Date(Date.parse(date.split('.').reverse().join('/')));
+      },
+
+      /**
+       *
+       * @param person
+       * @returns {string}
+       */
+      getAboutUrl (person) {
+        return `about.html?id=${person.id}`;
+      },
+
+      getEditForm () {
+        var that = this;
+        var editForm = function () {
+        };
+
+        editForm.prototype.init = function (obj) {
+          this.obj = obj;
+          this.editForm = document.getElementById('editForm');
+
+          document.getElementById('cancel').addEventListener('click', function () {
+            this.hide();
+          }.bind(this));
+        };
+
+        editForm.prototype.show = function (nodeId) {
+          this.hide();
+          that.person = that.tree.get(nodeId);
+          this.editForm.style.display = 'block';
+        };
+
+        editForm.prototype.hide = function () {
+          this.editForm.style.display = 'none';
+        };
+
+        return new editForm();
       }
     }
   }).mount('#app');
