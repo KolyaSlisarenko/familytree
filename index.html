@@ -8,7 +8,7 @@
   <title>Family tree</title>
 </head>
 <body>
-<div id="app">
+<div id="app" v-if="authorized">
   <div id="editForm" style="display:none; position:absolute; width:30%;z-index:10000;right: 0px;">
     <div class="tile is-ancestor" style="height: 100vh">
       <div class="tile is-parent">
@@ -48,11 +48,13 @@
     data () {
       return {
         person: null,
-        tree: null
+        tree: null,
+        authorized: localStorage.getItem('authorized')
       };
     },
 
     mounted () {
+      this.checkAuth();
       fetch('family.json').then((response) => {
         return response.json();
       })
@@ -174,6 +176,14 @@
         };
 
         return new editForm();
+      },
+
+      checkAuth () {
+        if (!this.authorized && prompt('Введіть пароль:') !== '1234567890') {
+          return this.checkAuth();
+        }
+        localStorage.setItem('authorized', true);
+        this.authorized = true;
       }
     }
   }).mount('#app');

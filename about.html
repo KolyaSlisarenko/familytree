@@ -189,10 +189,12 @@
             data() {
                 return {
                     user: {},
+                    authorized: localStorage.getItem('authorized')
                 };
             },
 
             mounted() {
+                this.checkAuth();
                 const id = new URL(window.location).searchParams.get("id");
 
                 fetch("family.json")
@@ -225,6 +227,15 @@
                 getContact(person) {
                     return person.contacts ? person.contacts : {};
                 },
+
+
+                checkAuth () {
+                    if (!this.authorized && prompt('Введіть пароль:') !== '1234567890') {
+                        return this.checkAuth();
+                    }
+                    localStorage.setItem('authorized', true);
+                    this.authorized = true;
+                }
             },
         }).mount("#app");
     </script>
