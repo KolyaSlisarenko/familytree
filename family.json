@@ -262,6 +262,7 @@
     "date_of_death":  "25.09.2009",
     "mid": 6,
     "fid": 7,
+    "pids": [86],
     "photos": ["main.jpeg"]
   },
   {
@@ -450,6 +451,7 @@
     "surname": "Трішина",
     "date_of_birth": "13.02.1973",
     "mid": 18,
+    "fid": 86,
     "photos": ["main.jpeg"]
   },
   {
@@ -832,5 +834,52 @@
     "surname": "Довгань",
     "date_of_birth": "--.--.--",
     "fid": 80
+  },
+  {
+    "id": 85,
+    "name": "Яна",
+    "surname": "Трішина",
+    "date_of_birth": "16.10.1993",
+    "mid": 38,
+    "photos": ["main.jpeg"]
+  },
+  {
+    "id": 86,
+    "name": "Володимир",
+    "surname": "Трішин",
+    "date_of_birth": "--.--.----",
+    "pids": [18],
+    "fid": 87,
+    "mid": 88,
+    "photos": ["main.jpeg"]
+  },
+  {
+    "id": 87,
+    "name": "Яків",
+    "surname": "Трішин",
+    "date_of_birth": "--.--.----",
+    "pids": [88],
+    "photos": ["main.jpeg"]
+  },
+  {
+    "id": 88,
+    "name": "Василина",
+    "surname": "-------",
+    "date_of_birth": "--.--.----",
+    "mid": 89,
+    "pids": [87]
+  },
+  {
+    "id": 89,
+    "name": "Надія",
+    "surname": "-------",
+    "date_of_birth": "--.--.----"
+  },
+  {
+    "id": 90,
+    "name": "Поліна",
+    "surname": "-------",
+    "mid": 89,
+    "date_of_birth": "--.--.----"
   }
 ]
