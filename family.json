@@ -395,7 +395,8 @@
     "name": "Одарка",
     "surname": "Котляр",
     "date_of_birth": "--.--.--",
-    "pids": [32]
+    "pids": [32],
+    "fid": 65
   },
   {
     "id": 34,
@@ -440,7 +441,8 @@
     "date_of_death":  "--.--.--",
     "mid": 19,
     "fid": 20,
-    "photos": ["main.jpeg"]
+    "photos": ["main.jpeg"],
+    "pids": [71]
   },
   {
     "id": 38,
@@ -646,5 +648,140 @@
     "date_of_death":  "--.--.--",
     "fid": 59,
     "mid": 60
+  },
+  {
+    "id": 62,
+    "name": "Килина",
+    "surname": "Бобрун",
+    "date_of_birth": "--.--.--",
+    "date_of_death": "--.--.1933",
+    "fid": 65
+  },
+  {
+    "id": 63,
+    "name": "Марія",
+    "surname": "Бобрун",
+    "date_of_birth": "--.--.--",
+    "fid": 65
+  },
+  {
+    "id": 64,
+    "name": "Брат",
+    "surname": "Бобрун",
+    "date_of_birth": "--.--.--",
+    "fid": 65
+  },
+  {
+    "id": 65,
+    "name": "Василь",
+    "surname": "Бобрун",
+    "date_of_birth": "--.--.--"
+  },
+  {
+    "id": 66,
+    "name": "Дитина",
+    "surname": "",
+    "about": "Дитина можливо вижила під час голодомору. Можливо, була всиновлена",
+    "date_of_birth": "--.--.--",
+    "date_of_death": "--.--.1933",
+    "mid": 62
+  },
+  {
+    "id": 67,
+    "name": "Дитина",
+    "surname": "",
+    "about": "Смерть під час голодомору",
+    "date_of_birth": "--.--.--",
+    "date_of_death": "--.--.1933",
+    "mid": 62
+  },
+  {
+    "id": 68,
+    "name": "Дитина",
+    "surname": "",
+    "about": "Смерть під час голодомору",
+    "date_of_birth": "--.--.--",
+    "date_of_death": "--.--.1933",
+    "mid": 62
+  },
+  {
+    "id": 69,
+    "name": "Дитина",
+    "surname": "",
+    "about": "Смерть під час голодомору",
+    "date_of_birth": "--.--.--",
+    "date_of_death": "--.--.1933",
+    "mid": 62
+  },
+  {
+    "id": 70,
+    "name": "Дитина",
+    "surname": "",
+    "about": "Смерть під час голодомору",
+    "date_of_birth": "--.--.--",
+    "date_of_death": "--.--.1933",
+    "mid": 62
+  },
+  {
+    "id": 71,
+    "name": "Марія",
+    "surname": "Слєсаренко(Дзюба)",
+    "date_of_birth": "--.--.----",
+    "date_of_death":  "--.--.--",
+    "pids": [37]
+  },
+  {
+    "id": 72,
+    "name": "Григорій",
+    "surname": "Слісаренко",
+    "date_of_birth": "--.--.----",
+    "date_of_death":  "--.--.--",
+    "fid": 37,
+    "mid": 71,
+    "pids": [75]
+  },
+  {
+    "id": 73,
+    "name": "Василь",
+    "surname": "Слісаренко",
+    "date_of_birth": "--.--.----",
+    "date_of_death":  "--.--.--",
+    "fid": 37,
+    "mid": 71
+  },
+  {
+    "id": 74,
+    "name": "Володимир",
+    "surname": "Слісаренко",
+    "date_of_birth": "--.--.----",
+    "date_of_death":  "--.--.--",
+    "fid": 37,
+    "mid": 71
+  },
+  {
+    "id": 75,
+    "name": "Надія",
+    "surname": "Слісаренко",
+    "date_of_birth": "--.--.----",
+    "date_of_death":  "--.--.--",
+    "pids": [72]
+  },
+  {
+    "id": 76,
+    "name": "Ігор",
+    "surname": "Слісаренко",
+    "date_of_birth": "--.--.----",
+    "date_of_death":  "--.--.--",
+    "fid": 72,
+    "mid": 75
+  },
+  {
+    "id": 77,
+    "name": "Ірина",
+    "surname": "Слісаренко",
+    "date_of_birth": "--.--.----",
+    "date_of_death":  "--.--.--",
+    "fid": 72,
+    "mid": 75
   }
 ]
