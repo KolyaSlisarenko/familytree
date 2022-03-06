@@ -13,7 +13,7 @@
     "name": "Roman",
     "surname": "Slisarenko",
     "date_of_birth": "02.10.1997",
-    "city": "",
+    "city": "м. Кобеляки",
     "mid": 4,
     "fid": 5,
     "photos": ["main.jpeg", "barcelona.jpg", "istanbul.jpg", "nix.jpg"],
@@ -228,7 +228,8 @@
     "date_of_birth": "--.--.1985",
     "date_of_death":  "18.01.1944",
     "fid": 41,
-    "pids": [20]
+    "pids": [20],
+    "photos": ["", "00000031.jpeg", "00000151.jpg", "00000236.jpg", "00000653.jpg", "00002419.jpg"]
   },
   {
     "id": 20,
@@ -354,7 +355,8 @@
     "date_of_birth": "--.--.--",
     "date_of_death":  "--.--.--",
     "mid": 32,
-    "fid": 33
+    "fid": 33,
+    "photos": ["", "00000143.jpg"]
   },
   {
     "id": 36,
@@ -406,11 +408,34 @@
     "name": "Михайло",
     "surname": "Слісаренко",
     "date_of_birth": "--.--.--",
-    "date_of_death":  "--.--.--"
+    "date_of_death":  "--.--.--",
+    "photos": ["", "img.png"]
   },
   {
     "id": 42,
     "name": "Михайло",
+    "surname": "Котляр",
+    "date_of_birth": "--.--.--"
+  },
+  {
+    "id": 43,
+    "name": "Архип",
+    "surname": "Котляр",
+    "date_of_birth": "--.--.1910",
+    "date_of_death":  "26.03.1942",
+    "city": "м. Кобеляки",
+    "fid": 44,
+    "contacts": {
+      "pamyat_naroda": [
+        "https://pamyat-naroda.ru/heroes/memorial-chelovek_vpp2003749516/",
+        "https://pamyat-naroda.ru/heroes/memorial-chelovek_donesenie51820052/"
+      ]
+    },
+    "photos": ["", "00000155.jpg"]
+  },
+  {
+    "id": 44,
+    "name": "Федір",
     "surname": "Котляр",
     "date_of_birth": "--.--.--"
   }
