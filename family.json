@@ -173,7 +173,8 @@
     "date_of_death":  "22.12.1993",
     "pids": [9],
     "mid": 11,
-    "fid": 12
+    "fid": 12,
+    "photos": ["photo1646570755.jpeg", "25ce16f6-2808-41e3-8b37-456bc15a41c6.jpeg"]
   },
   {
     "id": 9,
@@ -183,7 +184,8 @@
     "date_of_death":  "24.05.1983",
     "pids": [8],
     "mid": 13,
-    "fid": 14
+    "fid": 14,
+    "photos": ["8c532eee-09de-49cd-b01a-9660946dc88c.jpeg"]
   },
   {
     "id": 10,
@@ -214,7 +216,8 @@
     "surname": "Сушко",
     "date_of_birth": "--.--.----",
     "date_of_death":  "--.--.--",
-    "pids": [14]
+    "pids": [14],
+    "photos": ["msg275499683-386698.jpg"]
   },
   {
     "id": 14,
@@ -222,7 +225,8 @@
     "surname": "Сушко",
     "date_of_birth": "--.--.--",
     "date_of_death":  "--.--.--",
-    "pids": [13]
+    "pids": [13],
+    "photos": ["msg275499683-386698.jpg"]
   },
   {
     "id": 15,
@@ -239,7 +243,7 @@
     "surname": "Сушко",
     "date_of_birth": "24.11.1985",
     "fid": 15,
-    "photos": ["main.jpg"]
+    "photos": ["e70ddf64-d017-4f0f-8062-99cddee5b8f8.jpeg"]
   },
   {
     "id": 17,
@@ -273,7 +277,7 @@
   {
     "id": 20,
     "name": "Клавдія",
-    "surname": "Слісаренко",
+    "surname": "Лимбірко",
     "date_of_birth": "--.--.--",
     "date_of_death":  "--.--.--",
     "fid": 40,
@@ -303,7 +307,8 @@
     "date_of_birth": "--.--.1935",
     "date_of_death":  "--.--.--",
     "mid": 11,
-    "fid": 12
+    "fid": 12,
+    "photos": ["20dfeb11-7033-4d38-b35c-d368d995120f.jpeg"]
   },
   {
     "id": 24,
@@ -311,7 +316,8 @@
     "surname": "Гузченко",
     "date_of_birth": "--.--.1959",
     "date_of_death":  "--.--.--",
-    "fid": 23
+    "fid": 23,
+    "photos": ["main.png"]
   },
   {
     "id": 25,
@@ -319,42 +325,48 @@
     "surname": "Гузченко",
     "date_of_birth": "--.--.1965",
     "date_of_death":  "--.--.--",
-    "fid": 23
+    "fid": 23,
+    "photos": ["86478d08-0caa-4bd2-b8f6-1438f9e0941a.jpeg", "photo.png"]
   },
   {
     "id": 26,
     "name": "Микола",
     "surname": "Гузченко",
     "date_of_birth": "24.10.1984",
-    "fid": 23
+    "fid": 23,
+    "photos": ["48382663_2251852028180636_2907693520816963584_n.jpg", "main.jpg"]
   },
   {
     "id": 27,
     "name": "Ярослав",
     "surname": "Гузченко",
     "date_of_birth": "08.08.1988",
-    "fid": 23
+    "fid": 23,
+    "photos": ["942802_167548060073790_634988269_n.jpg", "922483_168493709979225_1415920635_o.jpg"]
   },
   {
     "id": 28,
     "name": "Лада",
     "surname": "Гузченко",
     "date_of_birth": "29.03.1993",
-    "fid": 23
+    "fid": 23,
+    "photos": ["main.jpg"]
   },
   {
     "id": 29,
     "name": "Злата",
     "surname": "Гузченко",
     "date_of_birth": "--.--.--",
-    "fid": 26
+    "fid": 26,
+    "photos": ["133280425_4030189327009324_2737320579115252728_n.jpg"]
   },
   {
     "id": 30,
     "name": "Єва",
     "surname": "Гузченко",
     "date_of_birth": "24.03.2021",
-    "fid": 27
+    "fid": 27,
+    "photos": ["b741e847-ff30-42e2-b114-0398ca3c4038.jpeg", "5439c1cf-bfcc-43db-a6f2-4c619c503073.jpeg"]
   },
   {
     "id": 31,
@@ -399,7 +411,7 @@
   },
   {
     "id": 36,
-    "name": "Єфросинія",
+    "name": "Параска(Фрося)",
     "surname": "Слісаренко",
     "date_of_birth": "--.--.--",
     "date_of_death":  "--.--.--",
@@ -427,8 +439,8 @@
   },
   {
     "id": 39,
-    "name": "Віра",
-    "surname": "Слісаренко",
+    "name": "Вєра",
+    "surname": "Красноокова",
     "date_of_birth": "--.--.--",
     "date_of_death":  "--.--.--",
     "mid": 19,
@@ -438,7 +450,7 @@
   {
     "id": 40,
     "name": "Василь",
-    "surname": "------------",
+    "surname": "Лимбірко",
     "date_of_birth": "--.--.--",
     "date_of_death":  "--.--.--"
   },
@@ -477,5 +489,149 @@
     "name": "Федір",
     "surname": "Котляр",
     "date_of_birth": "--.--.--"
+  },
+  {
+    "id": 45,
+    "name": "Марк",
+    "surname": "-------",
+    "date_of_birth": "--.--.--",
+    "mid": 16,
+    "photos": ["87778d7f-dc91-4f25-9f68-27fbc251af81.jpeg"]
+  },
+  {
+    "id": 46,
+    "name": "Оскар",
+    "surname": "-------",
+    "date_of_birth": "",
+    "mid": 16,
+    "photos": ["4f0505db-64ee-4580-832e-32dd1fdf6a87.jpeg"]
+  },
+  {
+    "id": 47,
+    "name": "Мотрона",
+    "surname": "Лимбірко",
+    "date_of_birth": "--.--.--",
+    "date_of_death":  "--.--.--",
+    "fid": 40
+  },
+  {
+    "id": 48,
+    "name": "Марія",
+    "surname": "Лимбірко(дівоче)",
+    "date_of_birth": "--.--.--",
+    "date_of_death":  "--.--.--",
+    "fid": 40
+  },
+  {
+    "id": 49,
+    "name": "Павло",
+    "surname": "Гальонкін",
+    "date_of_birth": "--.--.--",
+    "date_of_death":  "--.--.--",
+    "mid": 48
+  },
+  {
+    "id": 50,
+    "name": "Микола",
+    "surname": "Гальонкін",
+    "date_of_birth": "--.--.--",
+    "date_of_death":  "--.--.--",
+    "fid": 49
+  },
+  {
+    "id": 51,
+    "name": "Віктор Гаврилович",
+    "surname": "Слісаренко",
+    "date_of_birth": "--.--.--",
+    "date_of_death":  "--.--.--",
+    "mid": 36,
+    "pids": [56]
+  },
+  {
+    "id": 52,
+    "name": "Ольга Василівна",
+    "surname": "Тітаренко",
+    "date_of_birth": "--.--.--",
+    "date_of_death":  "--.--.--",
+    "mid": 36,
+    "pids": [53]
+  },
+  {
+    "id": 53,
+    "name": "Григорій",
+    "surname": "Тітаренко",
+    "date_of_birth": "--.--.--",
+    "date_of_death":  "--.--.--",
+    "pids": [52]
+  },
+  {
+    "id": 54,
+    "name": "Ярослав",
+    "surname": "Тітаренко",
+    "date_of_birth": "--.--.--",
+    "date_of_death":  "--.--.--",
+    "mid": [52],
+    "fid": [53]
+  },
+  {
+    "id": 55,
+    "name": "Яна",
+    "surname": "Тітаренко",
+    "date_of_birth": "--.--.--",
+    "date_of_death":  "--.--.--",
+    "mid": [52],
+    "fid": [53]
+  },
+  {
+    "id": 56,
+    "name": "Людмила",
+    "surname": "Слісаренко",
+    "date_of_birth": "--.--.--",
+    "date_of_death":  "--.--.--",
+    "pids": [51]
+  },
+  {
+    "id": 57,
+    "name": "Ігор",
+    "surname": "Слісаренко",
+    "date_of_birth": "--.--.--",
+    "date_of_death":  "--.--.--",
+    "fid": 51,
+    "mid": 56
+  },
+  {
+    "id": 58,
+    "name": "Наталія",
+    "surname": "Слісаренко",
+    "date_of_birth": "--.--.--",
+    "date_of_death":  "--.--.--",
+    "fid": 51,
+    "mid": 56
+  },
+  {
+    "id": 59,
+    "name": "Віктор",
+    "surname": "Краснооков",
+    "date_of_birth": "--.--.--",
+    "date_of_death":  "--.--.--",
+    "mid": 39,
+    "pids": [60]
+  },
+  {
+    "id": 60,
+    "name": "Ольга",
+    "surname": "Красноокова",
+    "date_of_birth": "--.--.--",
+    "date_of_death":  "--.--.--",
+    "pids": [59]
+  },
+  {
+    "id": 61,
+    "name": "Роман",
+    "surname": "Краснооков",
+    "date_of_birth": "--.--.--",
+    "date_of_death":  "--.--.--",
+    "fid": 59,
+    "mid": 60
   }
 ]
