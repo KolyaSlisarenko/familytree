@@ -179,7 +179,7 @@
       },
 
       checkAuth () {
-        if (!this.authorized && prompt('Введіть пароль:') !== '1234567890') {
+        if (!this.authorized && prompt('Введіть пароль:') !== '123456789') {
           return this.checkAuth();
         }
         localStorage.setItem('authorized', true);
