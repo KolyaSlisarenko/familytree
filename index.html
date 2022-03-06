@@ -57,6 +57,8 @@
         return response.json();
       })
         .then((data) => {
+          FamilyTree.SEARCH_PLACEHOLDER="Пошук";
+
           this.tree = new FamilyTree(document.getElementById('tree'), {
             editUI: this.getEditForm(),
             mouseScrool: FamilyTree.none,
