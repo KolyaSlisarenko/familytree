@@ -13,9 +13,44 @@
     "name": "Роман",
     "surname": "Слісаренко",
     "date_of_birth": "02.10.1997",
+    "city": "",
     "mid": 4,
     "fid": 5,
-    "photos": ["main.jpeg"]
+    "photos": ["main.jpeg"],
+    "date_of_death": "",
+    "about": "Шось про мене",
+    "education": [
+      {
+        "date_of_start": "2019",
+        "date_of_end": "2020",
+        "education_institution_name": "Kharkiv National University of Radioelectronics",
+        "degree": "Master's degree, Computer engineering"
+      },
+      {
+        "date_of_start": "2019",
+        "date_of_end": "2020",
+        "education_institution_name": "Kharkiv National University of Radioelectronics",
+        "degree": "Master's degree, Computer engineering"
+      }
+    ],
+    "work": [
+      {
+        "date_of_start": "2020",
+        "date_of_end": "",
+        "position": "PHP Developer",
+        "company": "NIX Solutions",
+        "city": "Kharkiv",
+        "description": "Разработка программ"
+      }
+    ],
+    "contacts": {
+      "mail": "slisarenko@mail.com",
+      "phone": "+380662660999",
+      "facebook": "https://www.facebook.com/roma.slisarenko",
+      "linkedin": "https://www.linkedin.com/in/roman-slisarenko-61a84b180/",
+      "github": "",
+      "twitter": ""
+    }
   },
   {
     "id": 3,
