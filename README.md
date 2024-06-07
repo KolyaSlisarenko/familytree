@@ -19,3 +19,5 @@
 ### mid: mother id.
 ### fid: father id.
 ### photos: array of photos for the gallery. the first photo is used for three!
+
+TODO:: Needs refactoring! Current library is not free, need to use alternative solution: https://apexcharts.com/apextree/demos/top-to-bottom
